@@ -1,0 +1,45 @@
+<h2>
+    TU Young Professionals Information Form
+</h2>
+
+<form #infoFormForm="ngForm" (ngSubmit)="onSubmit(infoFormForm)" method="post" action="filled.html">
+
+    <div class="form-group">
+        <label for="firstname">First Name</label>
+        <input type="text" ngModel name="firstName" id="firstname" placeholder="First Name" required>
+    </div>
+    <div class="form-group">
+        <label for="LastName">Last Name</label>
+        <input type="text" ngModel name="lastName" id="LastName" placeholder="Last Name" required>
+    </div>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" ngModel name="email" id="email" placeholder="Email" required >
+    </div>
+    <div class="form-group">
+        <label for="phoneNo">Phone Number</label>
+        <input type="tel" ngModel name="phoneNo" id="phoneNo" placeholder="Phone Number" maxlength="10" required>
+    </div>
+    <div class="form-group">
+        <label for="campus">Which campus are you interested in?</label>
+        <select ngModel name="campus" id="campus" required>
+            <option value=""> --Select a Campus-- </option>
+            <option value="Towson">Towson</option>
+            <option value="College Park">College Park</option>
+            <option value="North Eastern">North Eastern</option>
+            <option value="Laurel">Laurel</option>
+            <option value="New York">New York</option>
+            <option value="Austin">Austin</option>
+            <option value="Boston">Boston</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="workshop">Which workshop would you like to learn more about?</label>
+        <input type="text" ngModel name="workshop" id="workshop" placeholder="">
+    </div>
+
+    <div class="form-group">
+        <button id="button" type="submit" >Request Info</button>
+    </div>
+
+</form>

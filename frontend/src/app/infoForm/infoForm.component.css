@@ -1,0 +1,36 @@
+form {
+    width: 350px;
+    box-sizing: border-box;
+    margin: auto;
+}
+label {
+    width: 370px;
+    display: inline-block;
+    text-align: left;
+    
+    margin: 5px;
+}
+input{
+    width: 370px;
+    height: 20px;
+}
+#button {
+    width: 95px;
+    height: 45px;
+    margin-top: 10px;
+    align-self: auto;
+    padding: 0px 0px 0px 0px;
+    border: none;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+h2{
+    text-align: center;
+}
+#workshop{
+    height: 60px;
+}
+
+

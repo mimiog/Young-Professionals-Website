@@ -1,0 +1,31 @@
+<h2>
+    Current Inquiries
+</h2>
+<table class="table">
+    <thead>
+        <th>Date</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+        <th>Phone Number</th>
+        <th>Campus</th>
+        <th>Workshop</th>
+        <th>Status</th>
+
+    </thead>
+    <tbody id="table-content">
+        
+    </tbody>
+    <tr *ngFor="let item of (data | async)">
+        <td> {{ item.createdAt }}</td>
+        <td> {{ item.firstName }}</td>
+        <td> {{ item.lastName }}</td>
+        <td> {{ item.email }}</td>
+        <td> {{ item.phoneNo }}</td>
+        <td> {{ item.campus }}</td>
+        <td> {{ item.workshop }}</td> 
+        <td>
+            <input type="checkbox" id="check">
+        </td>
+    </tr>
+</table>
