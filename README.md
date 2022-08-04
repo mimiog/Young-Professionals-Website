@@ -7,7 +7,7 @@ To run this program on your machine, please install all depenencies by following
 - In your vscode/ code editor terminal, type 'cd backend'
 - Then run 'npm install' and 'npm install nodemailer' in the terminal. 
 - Once all required dependencies have been installed, you can then run 'npm start' to start the backend of the application.
-- To run the frontend of the application, you need to first 'cd frontend' in your vscode/ code editor terminal.
+- To run the frontend of the application, you need to first 'cd frontend' in a new terminal vscode/ code editor.
 - Once done, run 'npm install'.
 Once all dependencies are installed, run 'ng serve' to start the frontend of the application. 
 
