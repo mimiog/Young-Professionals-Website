@@ -13,5 +13,5 @@ Once all dependencies are installed, run 'ng serve' to start the frontend of the
 
 #### Note: You need to have Node.js and Angular CLI installed on your machine to be able to run this app. 
 For more info: 
-Node.js: https://nodejs.org/en/download/
-Angular CLI: https://angular.io/cli
+- Node.js: https://nodejs.org/en/download/
+- Angular CLI: https://angular.io/cli
