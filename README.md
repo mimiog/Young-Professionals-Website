@@ -1,6 +1,6 @@
 # Young-Professionals-Website
 
-#### I created this web application as a final project for my web development class. It is a simple website that utilizes a simple form to collect information from a user and then stores the information in a table. I used Javascript for my backend and Angular for the frontend. 
+#### I created this web application as a final project for my web development class. It is a simple website that utilizes a simple form to collect information from a user and then stores the information in a table(database). I used Javascript for my backend, MongoDB for my database, and Angular for the frontend. 
 
 To run this program on your machine, please install all depenencies by following the outlined steps:
 
